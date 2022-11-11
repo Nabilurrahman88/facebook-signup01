@@ -1,0 +1,153 @@
+/* common design  */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* sign up area design  */
+
+.logo-area {
+    width: 500px;
+}
+
+.logo-area img {
+    width: 300px;
+    margin-left: -28px;
+}
+
+.logo-area h2 {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-top: 0;
+}
+
+.top-section {
+    background-color: #f0f2f5;
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-box {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 25px 12px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.signup-box hr {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    border-top: 0;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.signup-box input {
+    display: block;
+    padding: 14px 16px;
+    font-size: 17px;
+    border-radius: 6px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 16px;
+    margin: 6px 0;
+}
+
+.signup-box input[type='submit'] {
+    background-color: #166fe5;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.forgotten {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.forgotten:hover {
+    text-decoration: underline;
+}
+
+.Create-new {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+}
+
+p a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* footer area design  */
+footer {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.footer-top ul,
+.footer-bottom ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-top ul li,
+.footer-bottom ul li {
+    margin-right: 10px;
+}
+
+.footer-top ul li a,
+.footer-bottom ul li a {
+    color: #8a8d91;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-top hr {
+    border-bottom: 1px solid #dddfe2;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px
+}
+
+footer p {
+    color: #8a8d91;
+    font-size: 12px;
+}

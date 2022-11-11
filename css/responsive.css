@@ -1,0 +1,35 @@
+@media (max-width: 886px) {
+
+    .top-section {
+        flex-direction: column;
+    }
+
+    .logo-area h2 {
+        width: inherit;
+    }
+}
+
+@media (max-width: 445px) {
+    .logo-area {
+        width: 90%;
+    }
+
+    .signup-box input {
+        width: 84%;
+        margin: 10px auto;
+    }
+
+    .signup-box {
+        width: 80%;
+        margin: auto;
+    }
+
+    .signup-box input[type='submit'] {
+        width: 84%;
+    }
+
+    a {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
